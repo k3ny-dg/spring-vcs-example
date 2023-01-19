@@ -12,7 +12,7 @@ public class Book
     private String title;
     private int pages;
 
-    public Book(String author, String title, int pages)
+    public Book(String title, String author, int pages)
     {
         this.author = author;
         this.title = title;
